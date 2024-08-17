@@ -12,7 +12,7 @@ concurrency:
 
 jobs:
   full-test:
-    container: cuaesd/aesd-autotest:assignment4-buildroot
+    container: cuaesd/aesd-autotest:assignment5-buildroot
     runs-on: self-hosted
     timeout-minutes: 180
     steps:
